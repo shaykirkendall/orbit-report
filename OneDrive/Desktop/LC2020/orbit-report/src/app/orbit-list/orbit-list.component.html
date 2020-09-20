@@ -8,14 +8,30 @@
       <th>Launch Date</th>
    </tr>
    
-   <tr *ngFor=“let satellite of satellites”>{{satellite}}</tr>
-
-   <tr>
-       <td>{satellite.name}</td>
-       <td>{satellite.type}</td>
-        <td>{satellite.launchDate}</td>
-        <td>{satellite.orbitType}</td>
-        <td>{satellite.operational}</td>
+   <tr *ngFor = "let satellite of satellites">
+       <td>{{satellite.name}}</td>
+       <td>{{satellite.type}}</td>
+       <td>{{satellite.launchDate}}</td>
+       <td>{{satellite.orbitType}}</td>
+       <td>{{satellite.operational}}</td>
    </tr>
+   
+   <!-- <tr *ngFor = "let satellite of satellites">
+       <td>{{satellite.type}}</td>
+    </tr>
+        
+    <tr *ngFor = "let satellite of satellites">
+        <td>{{satellite.launchDate}}</td>
+    </tr>
+
+    <tr *ngFor = "let satellite of satellites">
+        <td>{{satellite.orbitType}}</td>
+    </tr>
+
+    <tr *ngFor = "let satellite of satellites">
+        <td>{{satellite.operational}}</td>
+    </tr>
+    -->
+   
 
 </table>
