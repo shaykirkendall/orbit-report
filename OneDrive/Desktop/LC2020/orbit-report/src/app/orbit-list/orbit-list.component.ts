@@ -26,5 +26,4 @@ export class OrbitListComponent implements OnInit {
     });
 }
 
-
 }
